@@ -18,10 +18,10 @@ const people = [
 ];
 const startDate = new Date("03/03/2020");
 const discountedDays = [
-  4, // thurs
-  5, // fri
-  6, // sat
-  0 //sun
+  // 4, // thurs
+  // 5, // fri
+  // 6, // sat
+  // 0 //sun
 ];
 
 const todaysPairs = chunk(rotate(people, weekdaysSince(startDate)));
